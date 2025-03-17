@@ -3,7 +3,7 @@ NATAS
 Nivel 1
 User: natas0 
 Pasword: natas0
-Nivel2
+Nivel 2
 User: natas1
 Pasword: 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
 Nivel 3
