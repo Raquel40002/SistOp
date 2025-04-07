@@ -1,3 +1,486 @@
-{
-	"folders": []
-}
+
+    1: 7.¿Cuál es una buena manera de ver el contenido de un archivo?
+    2: 
+    3: 
+    4:  Correct answer!
+    5: cat
+    6: 
+    7: 
+    8: 
+    9: 8.¿Cómo salir de un comando menor?
+   10: 
+   11: 
+   12:  ¡Respuesta correcta!
+   13: q
+   14: 9.
+   15: ¿Cual es el comando para borrar la terminal?
+   16: 
+   17: 
+   18:  ¡Respuesta correcta!
+   19: clear
+   20: 10
+   21: ¿Qué bandera necesitas especificar para copiar un directorio?
+   22: 
+   23: 
+   24:  Correct answer!
+   25: -r
+   26: 11
+   27: ¿Cómo cambiar el nombre de un archivo llamado gato a perro?
+   28: 
+   29: 
+   30:  ¡Respuesta correcta!
+   31: mv cat dog
+   32:  
+   33: 12
+   34: ¿Qué comando se utiliza para crear un directorio?
+   35: 
+   36: 
+   37: ¡Respuesta correcta!
+   38: mkdir
+   39: 13.
+   40: ¿Cómo eliminar un archivo llamado myfile?
+   41: 
+   42: 
+   43:  ¡Respuesta correcta!
+   44: rm myfile
+   45: 14.
+   46: Prueba
+   47: ¿Qué opción debo especificar para buscar si quiero buscar por nombre?
+   48: 
+   49: 
+   50:  ¡Respuesta correcta!
+   51: -name
+   52:  
+   53: 15.
+   54: ¿Cómo obtener ayuda rápida de la línea de comandos para los comandos bash integrados?
+   55: 
+   56: 
+   57:  Correct answer!
+   58: help
+   59:  
+   60: 16.
+   61: ¿Cómo ver los manuales de un mando?
+   62: 
+   63: 
+   64:  ¡Respuesta correcta!
+   65: man
+   66: 17.
+   67: ¿Qué comando puedes usar para ver una pequeña descripción de un comando?
+   68: 
+   69: 
+   70:  Correct answer!
+   71: whatis
+   72:  
+   73: 18.
+   74: Qué comando se utiliza para crear un alias?
+   75: 
+   76: 
+   77:  ¡Respuesta correcta!
+   78: alias
+   79:  
+   80: 19.
+   81: Cómo puedes salir del shell?
+   82: 
+   83: 
+   84:  Correct answer!
+   85: exit
+   86: 
+   87: 
+   88: 
+   89:  TEXT-FU
+   90: 1. stdout (Salida estandar)
+   91: ¿Qué redirector utilizas para agregar salida a un archivo?
+   92: 
+   93: 
+   94: ¡Respuesta correcta!
+   95: >>
+   96: 2. stdin (entrada estándar)
+   97: ¿Qué redirector utilizas para redirigir la entrada estándar?
+   98: 
+   99: 
+  100:  Correct answer!
+  101: <
+  102:  
+  103: 3. stderr (Standard Error)
+  104: ¿Cuál es el redirector para stderr?
+  105: 
+  106: 
+  107:  ¡Respuesta correcta!
+  108: 2>
+  109:  
+  110: 4. tubería y te
+  111: ¿Qué tecla representa al operador de tubería?
+  112: 
+  113: 
+  114:  Correct answer!
+  115: |
+  116: 5. env (Medio ambiente)
+  117: ¿Cómo ves tus variables de entorno?
+  118: 
+  119: 
+  120:  ¡Respuesta correcta!
+  121: env
+  122:  
+  123: 6. cortar
+  124: ¿Qué comando usarías para obtener el primer carácter de cada línea de un archivo?
+  125: 
+  126: 
+  127:  ¡Respuesta correcta!
+  128: cut -c 1 
+  129: 7. pegar
+  130: ¿Qué bandera usas con paste para que todo vaya en una sola línea?
+  131: 
+  132: 
+  133:  ¡Respuesta correcta!
+  134: -s
+  135: 8. cabeza
+  136: ¿Qué bandera usarías para cambiar el número de líneas que quieres ver para el comando head?
+  137: 
+  138: 
+  139:  Correct answer!
+  140:  -n 
+  141:  
+  142:  9. cola
+  143:  ¿Cuál es la bandera que se utiliza para seguir un archivo en cola?
+  144: 
+  145: 
+  146:  ¡Respuesta correcta!
+  147: -f
+  148:  
+  149: 10. expandir y desexpandir
+  150: ¿Qué comando se utiliza para convertir tabulaciones en espacios?
+  151: 
+  152: 
+  153:  ¡Respuesta correcta!
+  154: expand 
+  155: 11. unir y dividir
+  156: 12.ordenar
+  157: ¿Qué bandera usas para hacer una ordenación inversa?
+  158: 
+  159: 
+  160:  Correct answer!
+  161: -r
+  162:  
+  163: 13.tr(traducir)
+  164: Prueba
+  165: ¿Qué comando se utiliza para traducir caracteres?
+  166: 
+  167: 
+  168:  ¡Respuesta correcta!
+  169: tr
+  170:  
+  171: 14. uniq (Unique)
+  172: ¿Qué comando usarías para eliminar duplicados en un archivo?
+  173: 
+  174: 
+  175:  ¡Respuesta correcta!
+  176: uniq
+  177:  
+  178: 15. wc y nl
+  179: ¿Qué comando usarías para obtener el número total de palabras de un archivo y sólo las palabras?
+  180: 
+  181: 
+  182:  ¡Respuesta correcta!
+  183: wc -w
+  184:  
+  185: 16. grep
+  186: ¿Qué comando utilizas para encontrar un patrón determinado?
+  187: 
+  188: 
+  189:  ¡Respuesta correcta!
+  190: grep 
+  191: 
+  192: 
+  193: 
+  194: 
+  195: TEXTO AVANZADO-FU
+  196: 1. regex (expresiones regulares)
+  197: Qué expresión regular usarías para hacer coincidir un solo carácter?
+  198: 
+  199: 
+  200:  ¡Respuesta correcta!
+  201: .
+  202: 
+  203: 2. Editores de texto
+  204: ¡No hagas preguntas, sigue adelante!
+  205: 
+  206: 3. Vim (Vi mejorado)
+  207: ¡No hagas preguntas, sigue adelante!
+  208: 
+  209: 4. Patrones de búsqueda de Vim
+  210: ¿Qué tecla se utiliza para buscar en vim?
+  211: 
+  212: 
+  213:  Correct answer!
+  214: /
+  215:  
+  216: 5. Navegación de Vim
+  217: ¿Qué letra se utiliza para desplazarse hacia abajo?
+  218: 
+  219: 
+  220:  ¡Respuesta correcta!
+  221: J
+  222:  
+  223: 6. Vim añadiendo texto
+  224: ¿Qué tecla se utiliza para insertar texto antes del cursor?
+  225: 
+  226: 
+  227:  Correct answer!
+  228: I
+  229: 
+  230: 7. Edición de Vim
+  231: ¿Qué carácter se utiliza para borrar una línea entera?
+  232: 
+  233: 
+  234:  ¡Respuesta correcta!
+  235: dd
+  236: 
+  237: 8. Guardar y salir de Vim
+  238: ¿Cómo salir de vim sin guardar?
+  239: 
+  240: 
+  241:  Correct answer!
+  242: :q!
+  243:  
+  244: 9. Emacs
+  245: Prueba
+  246: ¡No hagas preguntas, sigue adelante!
+  247: 
+  248: 10. Emacs manipula archivos
+  249: 
+  250: ¿Qué comando se utiliza para abrir un archivo?
+  251: 
+  252: 
+  253:  Correct answer!
+  254: C-x C-f
+  255: 
+  256: 11. Navegación por el búfer de Emacs
+  257:  
+  258: ¿Cómo se mata un buffer?
+  259: 
+  260: 
+  261:  ¡Respuesta correcta!
+  262: C-x k
+  263: 
+  264: 12. Emacs Editing
+  265: ¿Cómo llegar al final del buffer?
+  266: 
+  267: 
+  268:  ¡Respuesta correcta!
+  269: M->
+  270:  
+  271: 13. Salida y ayuda de Emacs
+  272: ¿Cómo acceder al menú de ayuda?
+  273: 
+  274: 
+  275:  Correct answer!
+  276: C-h C-h
+  277:  
+  278: GESTION DE USUARIO
+  279: 1. Usuarios y grupos
+  280: ¿Qué comando utilizas para ejecutar como root?
+  281: 
+  282: 
+  283:  ¡Respuesta correcta!
+  284: sudo
+  285:  
+  286: 2. raíz
+  287: Prueba
+  288: ¿Qué archivo muestra los usuarios que tienen acceso a sudo?
+  289: 
+  290: 
+  291:  Correct answer!
+  292: /etc/sudoers
+  293:  
+  294: 3. /etc/passwd
+  295: Si un usuario no tiene acceso de inicio de sesión, ¿cómo se indica eso en /etc/passwd?
+  296: 
+  297: 
+  298:  ¡Respuesta correcta!
+  299: *
+  300:  
+  301: 4. /etc/shadow
+  302: ¡No hagas preguntas, sigue adelante!
+  303: 
+  304: 5. /etc/group
+  305: ¿Cuál es el GID de la raíz?
+  306: 
+  307: 
+  308:  ¡Respuesta correcta!
+  309: 0
+  310:  
+  311: 6. Herramientas de gestión de usuarios
+  312: ¿Qué comando se utiliza para cambiar una contraseña?
+  313: 
+  314: 
+  315:  ¡Respuesta correcta!
+  316: passwd
+  317: 
+  318: 
+  319: 
+  320: PERMISOS
+  321: 1. Permisos de archivos
+  322: ¿Qué bit de permiso se utiliza para el ejecutable?
+  323: 
+  324: 
+  325:  ¡Respuesta correcta!
+  326: x
+  327:  
+  328: 2. Modificación de permisos
+  329: ¿Qué número representa el permiso de lectura cuando se utiliza el formato numérico?
+  330: 
+  331: 
+  332:  Correct answer!
+  333: 4
+  334:  
+  335: 3. Ownership Permissions
+  336: Qué comando utilizas para cambiar la propiedad del usuario?
+  337: 
+  338: 
+  339:  ¡Respuesta correcta!
+  340: chown
+  341:  
+  342: 4. Umask
+  343: ¿Qué comando se utiliza para cambiar los permisos de archivo predeterminados?
+  344: 
+  345: 
+  346:  Correct answer!
+  347: umask
+  348: 
+  349: 5. Setuid
+  350: ¿Qué número representa el SUID?
+  351: 
+  352: 
+  353:  ¡Respuesta correcta!
+  354: 4
+  355: 
+  356: 6. Setgid
+  357: ¿Qué número representa el SGID?
+  358: 
+  359: 
+  360: Correct answer!
+  361: 2
+  362: 
+  363: 7. Permisos de proceso
+  364: ¿Qué UID decide qué acceso conceder?
+  365: 
+  366: 
+  367:  ¡Respuesta correcta!
+  368: Effective 
+  369: 
+  370: 8. La parte pegajosa
+  371: ¿Qué símbolo representa la parte adhesiva?
+  372: 
+  373: 
+  374:  Correct answer!
+  375: t
+  376: 
+  377: 
+  378: 
+  379: PROCESOS
+  380: 1. ps (Procesos)
+  381: ¿Qué bandera ps se utiliza para ver información detallada sobre los procesos?
+  382: 
+  383: 
+  384:  ¡Respuesta correcta!
+  385: u
+  386: 
+  387: 2. Terminal de control
+  388: ¿Qué valor se da para un proceso que no tiene una terminal de control?
+  389: 
+  390: 
+  391:  ¡Respuesta correcta!
+  392: ?
+  393:  
+  394: 3. Detalles del proceso
+  395: ¿Qué gestiona y controla los procesos?
+  396: 
+  397: 
+  398: Correct answer!
+  399: kernel
+  400: 
+  401: 4. Process Creation
+  402: ¿Qué llamada al sistema crea un nuevo proceso?
+  403: 
+  404: 
+  405:  ¡Respuesta correcta!
+  406: fork
+  407: 
+  408: 5. Terminación del proceso
+  409: ¿Cuál es el estado de terminación más común para que un proceso tenga éxito?
+  410: 
+  411: 
+  412:  Correct answer!
+  413: 0
+  414:  
+  415: 6. Señales
+  416: ¿Qué señal es imbloqueable?
+  417: 
+  418: 
+  419:  ¡Respuesta correcta!
+  420: SIGKILL
+  421:  
+  422: 7. matar (Terminar)
+  423: ¿Cuál es el nombre de la señal para el comando kill predeterminado?
+  424: 
+  425: 
+  426:  Correct answer!
+  427: SIGTERM
+  428:  
+  429: 8. amabilidad
+  430: 
+  431: 9. Estados del proceso
+  432: Qué código STAT se utiliza para representar un sueño ininterrumpido?
+  433: 
+  434: 
+  435:  ¡Respuesta correcta!
+  436: D
+  437:  
+  438: 10. /proc sistema de archivos
+  439: 
+  440: ¿Qué sistema de archivos almacena información del proceso?
+  441: 
+  442: 
+  443:  Correct answer!
+  444: /proc
+  445:  
+  446: 11. Job Control
+  447: ¿Qué comando se utiliza para enumerar trabajos en segundo plano?
+  448: 
+  449: 
+  450:  ¡Respuesta correcta!
+  451: jobs
+  452: 
+  453: 
+  454: 
+  455:  PAQUETES
+  456: 
+  457: 1. Distribución de software
+  458: ¡Sin preguntas, sigue adelante!
+  459: 
+  460: 2. Repositorios de paquetes
+  461: ¿Dónde está el archivo de fuentes en un sistema Debian?
+  462: 
+  463: 
+  464:  Correct answer!
+  465: /etc/apt/sources.list
+  466: 
+  467: 3. tar y gzip
+  468: ¿Qué bandera tar se utiliza para crear archivos?
+  469: 
+  470: 
+  471:  ¡Respuesta correcta!
+  472: C
+  473:  
+  474: 4. Dependencias del paquete
+  475: ¡Sin preguntas, sigue adelante!
+  476: 
+  477: 5. rpm y dpkg
+  478: ¿Cuál es la herramienta de gestión de paquetes para archivos .deb?
+  479: 
+  480: 
+  481:  Correct answer!
+  482: dpkg
+  483:  
+  484: 6. yum y apto
+  485: ¿Qué comando se utiliza para mostrar información del paquete en un sistema Debian?
