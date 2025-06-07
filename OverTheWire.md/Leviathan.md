@@ -1,10 +1,17 @@
 Level 0 Username: Leviathan0 Password: leviathan0 
+
 Level1 Username: Leviathan1 Password: 3QJ3TgzHDq 
+
 Level 3 Username: Leviathan 2 Password: NsN1HwFoyN 
+
 Level 4 Username: Leviathan 3 Password: f0n8h2iWLP 
+
 Level 5 Username: leviathan4 Password: WG1egElCvO 
+
 Level 6 Username: leviathan5 Password: 0dyxT7F4QD 
+
 Level 7 Username: Leviathan 6 Password: szo7HDB88w 
+
 Level 8 Username: Leviathan7 Password: qEs5Io5yM8
 
 C:\Users\hp> ssh leviathan7@leviathan.labs.overthewire.org -p 2223 _ _ _ _ | | _____ () __ | || |__ __ _ _ __ | |/ _ \ \ / / |/  | __| '_ \ / _ | '
