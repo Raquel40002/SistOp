@@ -94,6 +94,7 @@ Comandos:cat,ls. Contraseña:tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 
 Bandit Nivel 22 → Nivel 23
 Comandos:cat,echo,whoami. Contraseña:0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+
 Level 23 → Level 24
 Terminal:
 
@@ -110,6 +111,7 @@ Script:
 
 cat /etc/bandit_pass/bandit24 > /tmp/sbandit24/spass
 Password: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
+
 Level 24 → Level 25
 comandos
 mkdir /tmp/sbrute
@@ -127,6 +129,7 @@ v
 
 :shell
 Password: s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
+
 Level 26 → Level 27
 ./bandit27-do cat /etc/bandit_pass/bandit27
 Password: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
@@ -163,5 +166,6 @@ Password: 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
 
 Level 32 → Level 33
 Password: tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
+
 Level 33 → Level 34
 no existe
